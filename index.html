@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-color: #ececec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: poppins;
+        }
+
+        .content {
+            width: max-content;
+            /* background-color: #201c1c; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+            height: max-content;
+        }
+
+        .nomor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .nomor div {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            margin-bottom: 5px;
+            margin-right: 4px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .row2 div {
+            width: 30px;
+            height: 30px;
+            background-color: #b6b6b6;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        .column div {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .rowTransparent div {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            margin-bottom: 5px;
+        }
+
+        .row2 .huruf {
+            background-color: transparent;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .col-row {
+            border: 1px solid green;
+            display: flex;
+            gap: 3px;
+            padding: 8px 5px 5px 5px;
+            border-radius: 5px;
+        }
+
+        .column {
+            display: flex;
+            width: 100%;
+            height: 30px;
+            /* background-color: forestgreen; */
+            gap: 3px;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-content">
+            <div class="column">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div></div>
+                <div>D</div>
+                <div>E</div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="nomor">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                        <div>10</div>
+                        <div>11</div>
+                    </div>
+                </div>
+                <div class="col-row">
+                    <div class="row2">
+                        <div class="1A"></div>
+                        <div class="2A"></div>
+                        <div class="3A"></div>
+                        <div class="4A"></div>
+                        <div class="5A"></div>
+                        <div class="6A"></div>
+                        <div class="7A"></div>
+                        <div class="8A"></div>
+                        <div class="9A"></div>
+                        <div class="10A"></div>
+                        <div class="11A"></div>
+
+                    </div>
+                    <div class="row2">
+                        <div class="1B"></div>
+                        <div class="2B"></div>
+                        <div class="3B"></div>
+                        <div class="4B"></div>
+                        <div class="5B"></div>
+                        <div class="6B"></div>
+                        <div class="7B"></div>
+                        <div class="8B"></div>
+                        <div class="9B"></div>
+                        <div class="10B"></div>
+                        <div class="11B"></div>
+                    </div>
+                    <div class="row2">
+                        <div class="1C"></div>
+                        <div class="2C"></div>
+                        <div class="3C"></div>
+                        <div class="4C"></div>
+                        <div class="5C"></div>
+                        <div class="6C"></div>
+                        <div class="7C"></div>
+                        <div class="8C"></div>
+                        <div class="9C"></div>
+                        <div class="10C"></div>
+                        <div class="11C"></div>
+                    </div>
+                    <div class="rowTransparent">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="row2">
+                        <div class="1D"></div>
+                        <div class="2D"></div>
+                        <div class="3D"></div>
+                        <div class="4D"></div>
+                        <div class="5D"></div>
+                        <div class="6D"></div>
+                        <div class="7D"></div>
+                        <div class="8D"></div>
+                        <div class="9D"></div>
+                        <div class="10D"></div>
+                        <div class="11D"></div>
+                    </div>
+                    <div class="row2">
+                        <div class="1E"></div>
+                        <div class="2E"></div>
+                        <div class="3E"></div>
+                        <div class="4E"></div>
+                        <div class="5E"></div>
+                        <div class="6E"></div>
+                        <div class="7E"></div>
+                        <div class="8E"></div>
+                        <div class="9E"></div>
+                        <div class="10E"></div>
+                        <div class="11E"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+
+        const penumpang = [
+            {
+                nama: 'Chelo Tasnim Haryono',
+                kursi: '5A'
+            },
+            {
+                nama: 'Radhitia Pratama Effendy',
+                kursi: '7D'
+            },
+            {
+                nama: 'Nutriyo',
+                kursi: '11C'
+            },
+            {
+                nama: "Farhan Andika",
+                kursi: "1A"
+            },
+            {
+                nama: "Siti Rahma",
+                kursi: "2B"
+            },
+            {
+                nama: "Ahmad Fadil",
+                kursi: "3C"
+            },
+            {
+                nama: "Dewi Lestari",
+                kursi: "4D"
+            },
+            {
+                nama: "Budi Santoso",
+                kursi: "5E"
+            },
+            {
+                nama: "Nadia Fitriani",
+                kursi: "6A"
+            },
+            {
+                nama: "Rizki Ramadhan",
+                kursi: "7B"
+            },
+            {
+                nama: "Siti Nurul",
+                kursi: "8C"
+            },
+            {
+                nama: "Agus Setiawan",
+                kursi: "9D"
+            },
+            {
+                nama: "Rina Wulandari",
+                kursi: "10E"
+            },
+        ]
+        let mapPenumpang = penumpang.map((item) => {
+            return { nama: item.nama, kursi: item.kursi }
+        });
+        console.log(mapPenumpang);
+
+        for (let i = 0; i < mapPenumpang.length; i++) {
+            let string = mapPenumpang[i].nama.split(' ')
+            let kursiMap = mapPenumpang[i].kursi
+            let ambilHuruf;
+            if (string.length > 1) {
+                let arr0 = string[0].split('')
+                let arr1 = string[1].split('')
+                ambilHuruf = arr0[0] + arr1[0].toUpperCase()
+                console.log(ambilHuruf);
+            } else {
+                let join = string.join()
+                let arr = join.split('')
+                ambilHuruf = arr[0] + arr[1].toUpperCase()
+                console.log(ambilHuruf.toUpperCase());
+            }
+
+
+
+            const kursi = document.getElementsByClassName(`${kursiMap}`)[0];
+            kursi.innerHTML = ambilHuruf
+            kursi.style.textAlign = "center"
+            kursi.style.lineHeight = "30px"
+            kursi.style.backgroundColor = "blue"
+            kursi.style.color = "white"
+
+        }
+
+    </script>
+</body>
+
+</html>
